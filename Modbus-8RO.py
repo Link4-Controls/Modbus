@@ -105,7 +105,7 @@ di_state_before = read_hr(HR_DI_STATE, 1)[0]
 
 # Turn on relay all relays for 5s
 print("Turning ON all relays for 5s")
-write_hr(HR_RELAY_CTRL, 0x00FF)
+write_hr(HR_RELAY_CTRL, 0b11111111)
 time.sleep(5)
 
 # Read after state
@@ -128,3 +128,4 @@ time.sleep(2)
 # Exit
 client.close()
 print("✓ Closed")
+
