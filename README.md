@@ -5,8 +5,9 @@
 -> py --version
 4) Install Pymodbus
 -> py -3.XX -m pip install pymodbus
-5) Verify Pymodbus Installation
+-> Enter your Python version ex. py -3.10 -m pip install pymodbus
+6) Verify Pymodbus Installation
 -> py -3.XX -m pip show pymodbus
-6) Download code from Github
+7) Download code from Github
 -> https://github.com/Link4-Controls/Modbus
-7) Run the file (Modbus-8RO)
+8) Run the file (Modbus-8RO)
