@@ -3,7 +3,7 @@
 2) Open Command Prompt
 3) Verify Python Installation
 -> py --version
-4) Install Pymodbus (Enter your python version)
+4) Install Pymodbus
 -> py -3.XX -m pip install pymodbus
 6) Verify Pymodbus Installation
 -> py -3.XX -m pip show pymodbus
