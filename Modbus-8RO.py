@@ -2,7 +2,7 @@ from pymodbus.client import ModbusSerialClient
 import time
 
 PORT = "" # Enter your COM Port
-DEVICE_ID =  # Enter your Modbus Address
+DEVICE_ID =  # Enter your Modbus Address (Default: 134)
 BAUD = 19200   # Link4 Modules use a baudrate of 19200
 
 client = ModbusSerialClient( port=PORT,baudrate=BAUD,bytesize=8,parity="N",stopbits=1,timeout=1.0) 
@@ -35,3 +35,4 @@ write_hr(199, 0x0000) # Turn OFF all relays
 time.sleep(2)
 client.close()
 print("✓ Closed")
+
